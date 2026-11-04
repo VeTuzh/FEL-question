@@ -20,7 +20,32 @@
 | [Konomi等，PRAB 2023](https://doi.org/10.1103/PhysRevAccelBeams.26.121601) | 10 mA级ERL超导腔高阶模与束流破裂设计 | 腔结构研究，非整机高流强EUV实测 |
 | [Lee等，JSR 2020](https://doi.org/10.1107/S1600577520005676)；[用户附件](https://chatgpt.com/library?file_id=libfile_4608b7374f48819184efa0cb72e29678&account_id=personal) | 储存环FEL替代路线 | 13.5 nm千瓦级为模拟，不是工业运行；本轮以公开原文核对 |
 
+## 光学接口与去相干专题资料
+
+典型专利检索覆盖公开可访问的中、美、欧文本。关键词包括 `free electron laser`、`EUV lithography`、`intermediate focus`、`speckle`、`optical delay`，以及“极紫外”“自由电子激光”“匀光管”“去相干”。筛选以输运、瞳面整形或散斑抑制的具体技术披露为依据。
+
+| 来源 | 用途 | 证据边界 |
+|---|---|---|
+| [ZEISS 高NA EUV照明设计](https://asset-downloads.zeiss.com/catalogs/download/smt/f07917ce-b35c-4980-a91d-595e6550eeb9/high-na-euv-imaging-challenges-and-outlook.pdf) | 场分面与瞳分面配对、狭缝照明、定制瞳面 | 公开照明器设计，未提供FEL接入的完整公差 |
+| [Cymer SPIE 2012 EUV光源论文](https://www.cymer.com/wp-content/uploads/2018/12/Cymer_SPIE_AdvancedLithography_2012.pdf) | 13.5 nm带内功率和中间焦点的计量口径 | 2%带宽为该论文口径，目标扫描机的接收窗口需确认 |
+| [xLight 2024 光刻光源报告](https://euvlitho.com/2024/P43.pdf)及[光源研讨会摘要集](https://www.euvlitho.com/2024/2024%20Source%20Workshop%20Abstract%20Book.pdf) | IF功率预算算例、短脉冲通道时延及扫描平均构想 | 设计、模型与公开技术演示材料，非整机验收数据 |
+| [ZEISS US10928734B2](https://patents.google.com/patent/US10928734B2/en) | 权1–3，两块掠入射镜及下游空心波导，涉及EUV和FEL输出 | 公开权利要求 |
+| [ZEISS US9958783B2](https://patents.google.com/patent/US9958783B2/en) | 权1、13、15，支路聚焦至IF及与双分面照明器的组合 | 公开权利要求，说明书列FEL为可用光源 |
+| [ZEISS EP2823360B1](https://patents.google.com/patent/EP2823360B1/en) | 权1–4，分面通道、相干时长判据和时延元件 | 公开权利要求 |
+| [ASML US11984236B2](https://patents.google.com/patent/US11984236B2/en) | 权1–3，可移动的双粗糙反射面；说明书讨论扩展量调节 | 公开权利要求，说明书参数为设计披露 |
+| [华为 CN115343915A](https://patents.google.com/patent/CN115343915A/zh) | 权1、11–13，微反射面高度差和转镜随曝光平均 | 申请公开文本 |
+
 ## 证据缺口
+
+本轮可研修订补充的公开原始资料：
+
+| 资源 | 用途 | 证据边界 |
+|---|---|---|
+| [Huang 与 Kim，PRSTAB 2007](https://doi.org/10.1103/PhysRevSTAB.10.034801) | 高增益、Pierce 参数、增益长度和束质判据 | 理论综述；一维式只供量级估算，真实方案需三维计算 |
+| [Lüttgenau 等，Applied Optics 2022](https://doi.org/10.1364/AO.452204) | EUV 部分相干照明器的强度、相干和光谱联调 | 小型 EUV 干涉光刻系统设计，不等同工业扫描机接口 |
+| [Stupakov 等，FEL 2024](https://indico.jacow.org/event/72/contributions/5820/) | 短脉冲分束与延迟抑制散斑 | 理论/模型研究，光学透过率和扫描机成像须实证 |
+| [Wei 等，Chinese Physics B 2025](https://doi.org/10.1088/1674-1056/adb734) | 相干性、散斑和成像质量的模型关系 | 成像模拟，不是 FEL 光刻机曝光验证 |
+
 
 - 尚无公开证据证明13.5 nm、千瓦级FEL已满足光刻机全年高可用率及晶圆面成像指标。
 - 光源到具体扫描机的总透过率、光学面寿命、去相干后散斑/剂量均匀性、热与污染预算需联合验证。

@@ -161,7 +161,9 @@ def table(headers, rows, widths=None):
         for i,z in enumerate(row):
             cells[i].text = str(z)
     for row in t.rows:
-        for cell in row.cells:
+        for col_idx, cell in enumerate(row.cells):
+            if widths:
+                cell.width = Cm(widths[col_idx])
             cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
             tcMar = cell._tc.get_or_add_tcPr().first_child_found_in('w:tcMar')
             if tcMar is None:
@@ -197,7 +199,7 @@ table(['结论等级','本报告采用的代表事实','对研发决策的含义
     ('设计与模拟','KEK 17.8 kW；He 等 2.03 kW','可供参数闭合与试验方案设计，不能作为采购保证'),
     ('待确认','目标扫描机 IF、光瞳、带宽、运行可用率及光学效率','决定源端余量、去相干方案和整机经济性')],[2.5,7.1,6.7])
 
-h('0 研究边界与可研判据')
+h('研究边界与可研判据')
 p('本报告仅对 13.5 nm 的科学与工程可行性进行初判，不承诺整机规格、建设工期或成本。可研验收应分为六层：共振波长、脉冲能量及平均功率、束流能量回收、EUV 传输和 IF 功率、成像照明质量、长时间可用率。每层记录测量面、占空比与不确定度，不能跨层替代。')
 table(['评价量','定义或测量面','本轮状态'],[
     ('Pᵤ','波荡器出口、全部脉冲的时间平均 EUV 功率','有公开模拟值'),
