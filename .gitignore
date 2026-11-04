@@ -1,0 +1,57 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.*
+
+# Browser and authentication data
+**/Cookies
+**/Login Data
+**/Web Data
+**/Local Storage/
+**/Session Storage/
+**/browser-profile/
+
+# Office temporary and lock files
+~$*.doc
+~$*.docx
+~$*.ppt
+~$*.pptx
+~$*.xls
+~$*.xlsx
+
+# Language and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.cache/
+coverage/
+dist/
+build/
+
+# Logs
+*.log
+
+# Regenerable temporary files
+tmp/*
+!tmp/.gitkeep
