@@ -4,6 +4,7 @@
 
 | 来源 | 用途 | 证据边界 |
 |---|---|---|
+| [11 月 5 日用户提纲附件](https://chatgpt.com/library?file_id=libfile_ba522aa5f0348191b18fac9ca59fa1ae&account_id=personal) | 产生报告的七段顺序与内容安排 | 一页写作提纲 |
 | [Kawata等，JMM 2022](https://doi.org/10.1117/1.JMM.21.2.021210)；[用户附件](https://chatgpt.com/library?file_id=libfile_4b5c4ac25a3481918d066f007575a408&account_id=personal) | KEK ERL-SASE、红外对照和多机输运 | 13.5 nm千瓦级是设计；本轮核读附件前3页 |
 | [Nakamura等，IPAC 2023](https://epaper.kek.jp/ipac2023/pdf/THPM123.pdf) | KEK 800 MeV、10 mA、>10 kW起止端仿真与光束线 | 设计/仿真，非EUV实测 |
 | [He等，PRAB 2025](https://doi.org/10.1103/PhysRevAccelBeams.28.030702)；[用户附件](https://chatgpt.com/library?file_id=libfile_ac86680f21bc81919e5561f6154b3365&account_id=personal) | 低能谐波再生放大方案 | 约0.33 GeV、约2 kW为估算/仿真；本轮核读附件前2页 |
@@ -26,6 +27,8 @@
 
 | 来源 | 用途 | 证据边界 |
 |---|---|---|
+| [ASML TWINSCAN NXE:3600D](https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe-3600d) | 核对 13.5 nm、0.33 NA 投影物镜与 26 mm × 33 mm 最大曝光场 | 平台公开规格，具体 IF 接收图与脉冲限制待确认。2026-11-05 核对 |
+| [Zimmermann 等，ZEISS 与 ASML 2016 EUVL](https://euvlsymposium.lbl.gov/pdf/2016/Oral/Mon_S3-3.pdf) | 0.33 NA 的 IF、双分面光路与灵活瞳面实例 | 公开照明架构与工艺示例，FEL 接入性能待验证。2026-11-05 核对 |
 | [ZEISS 高NA EUV照明设计](https://asset-downloads.zeiss.com/catalogs/download/smt/f07917ce-b35c-4980-a91d-595e6550eeb9/high-na-euv-imaging-challenges-and-outlook.pdf) | 场分面与瞳分面配对、狭缝照明、定制瞳面 | 公开照明器设计，未提供FEL接入的完整公差 |
 | [Cymer SPIE 2012 EUV光源论文](https://www.cymer.com/wp-content/uploads/2018/12/Cymer_SPIE_AdvancedLithography_2012.pdf) | 13.5 nm带内功率和中间焦点的计量口径 | 2%带宽为该论文口径，目标扫描机的接收窗口需确认 |
 | [xLight 2024 光刻光源报告](https://euvlitho.com/2024/P43.pdf)及[光源研讨会摘要集](https://www.euvlitho.com/2024/2024%20Source%20Workshop%20Abstract%20Book.pdf) | IF功率预算算例、短脉冲通道时延及扫描平均构想 | 设计、模型与公开技术演示材料，非整机验收数据 |
@@ -34,6 +37,10 @@
 | [ZEISS EP2823360B1](https://patents.google.com/patent/EP2823360B1/en) | 权1–4，分面通道、相干时长判据和时延元件 | 公开权利要求 |
 | [ASML US11984236B2](https://patents.google.com/patent/US11984236B2/en) | 权1–3，可移动的双粗糙反射面；说明书讨论扩展量调节 | 公开权利要求，说明书参数为设计披露 |
 | [华为 CN115343915A](https://patents.google.com/patent/CN115343915A/zh) | 权1、11–13，微反射面高度差和转镜随曝光平均 | 申请公开文本 |
+
+## 版式参考
+
+- 用户提供的《Cymer LPP EUV光源激光晶体及关键晶体材料供应商清单v1.docx》用于本轮字体、段落、页面和表格样式匹配。该附件存于仓库外，其文字仅用于识别格式角色。2026-11-05 核对 SHA-256 为 `c0753b483de0243b6b2fa5c448ed1a15be86aecf016e96af014f98217d1036d6`。
 
 ## 证据缺口
 
